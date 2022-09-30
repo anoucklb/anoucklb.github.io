@@ -4,6 +4,8 @@ import Column from './Column'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import jonesy from './static/Jonesy.png';
 import betsyhigh5 from './static/bestyhigh5.png';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
 
 
 function App() {
@@ -11,20 +13,15 @@ function App() {
         <div className="App">
 
             <header className="App-header">
-                <img src={jonesy} className="App-logo" alt="jonesy"/>
-                <img src={betsyhigh5} className="App-logo" alt="betsyhigh5"/>
-                <p>
-                    Edit <code>src/App.js</code> and save to reload.
-                </p>
-                <p>hello</p>
-                <a
-                    className="App-link"
-                    href="https://reactjs.org"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                >
-                    Learn React
-                </a>
+                <Row>
+                    <Col>
+                        <img src={jonesy} className="App-logo" alt="jonesy"/>
+                    </Col>
+                    <Col>
+                        <img src={betsyhigh5} className="App-logo" alt="betsyhigh5"/>
+                    </Col>
+                </Row>
+
             </header>
 
             <Column></Column>
