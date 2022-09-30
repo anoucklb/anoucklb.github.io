@@ -4,6 +4,7 @@ import Column from './Column'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import jonesy from './static/Jonesy.png';
 import betsyhigh5 from './static/bestyhigh5.png';
+import ttfallon from './static/ttfallon.png';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
@@ -21,6 +22,9 @@ function App() {
                     </Col>
                     <Col>
                         <img src={betsyhigh5} className="App-logo" alt="betsyhigh5"/>
+                    </Col>
+                    <Col>
+                        <img src={ttfallon} className="App-logo" alt="ttfallon"/>
                     </Col>
                 </Row>
 
