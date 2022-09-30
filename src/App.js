@@ -9,42 +9,27 @@ import betsyhigh5 from './static/bestyhigh5.png';
 function App() {
     return (
         <div className="App">
-            {/*<header className="App-header">*/}
-            {/*    <img src={logo} className="App-logo" alt="logo"/>*/}
-            {/*    <p>*/}
-            {/*        Edit <code>src/App.js</code> and save to reload.*/}
-            {/*    </p>*/}
-            {/*    <p>hello</p>*/}
 
-            {/*    <a*/}
-            {/*        className="App-link"*/}
-            {/*        href="https://reactjs.org"*/}
-            {/*        target="_blank"*/}
-            {/*        rel="noopener noreferrer"*/}
-            {/*    >*/}
-            {/*        Learn React*/}
-            {/*    </a>*/}
-            {/*</header>*/}
+            <header className="App-header">
+                <img src={jonesy} className="App-logo" alt="jonesy"/>
+                <img src={betsyhigh5} className="App-logo" alt="betsyhigh5"/>
+                <p>
+                    Edit <code>src/App.js</code> and save to reload.
+                </p>
+                <p>hello</p>
+                <a
+                    className="App-link"
+                    href="https://reactjs.org"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    Learn React
+                </a>
+            </header>
+
             <Column></Column>
-
-      <header className="App-header">
-        <img src={jonesy} className="App-logo" alt="jonesy" />
-          <img src={betsyhigh5} className="App-logo" alt="betsyhigh5" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-      <p>hello</p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+        </div>
+    );
 }
 
 export default App;

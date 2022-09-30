@@ -57,7 +57,7 @@ const MyCard = (props) => {
         alert("ADDED")
     }
     return (
-        <Card style={{width: '10rem', background: 'teal', padding: '10px', margin: '10px', color: 'white'}}>
+        <Card style={{background: 'teal', padding: '10px', margin: '10px', color: 'white'}}>
             <Card.Body>
                 <Card.Title>{props.title}</Card.Title>
                 <Card.Text>
