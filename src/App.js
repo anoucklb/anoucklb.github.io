@@ -27,6 +27,13 @@ function App() {
             </header>
 
             <Column></Column>
+            <Row>
+                <Col></Col>
+                <Col>
+                    <Sidebar></Sidebar>
+                </Col>
+                <Col></Col>
+            </Row>
         </div>
     );
 }
