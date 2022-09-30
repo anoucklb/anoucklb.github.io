@@ -7,6 +7,8 @@ import betsyhigh5 from './static/bestyhigh5.png';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
+import Sidebar from './Sidebar'
+
 
 function App() {
     return (
